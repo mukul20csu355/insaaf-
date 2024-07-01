@@ -8,7 +8,7 @@ import warnings #for managing warnings in code
 
 warnings.filterwarnings("ignore")
 #gemini chat model used
-GOOGLE_API_KEY="AIzaSyAwsaxusNr8GnSBUnZo99iCW47arh8Iui8"
+GOOGLE_API_KEY="AIzaSyC--JQ0LK80SkZf519Wwwdf3s2RxQNPyMg"
 api_key = GOOGLE_API_KEY
 if not api_key:
     raise ValueError("Google API Key not provided. Please provide GOOGLE_API_KEY as an environment variable")
