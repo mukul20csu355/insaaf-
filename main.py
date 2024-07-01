@@ -3,6 +3,9 @@ import regex as re #advanced regular expressions
 import google.generativeai as genai #function and tools forworking with google generative ai model
 from chromadb import Documents, EmbeddingFunction, Embeddings #databse or embedding handling function
 import chromadb 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from typing import List #type printing for lists
 import warnings #for managing warnings in code 
 
